@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 void print_array(int arr[], int size) {
-    //printf("The size of the array is %d\n", size);
     for (int i = 0; i < size; i++) {
-        //printf("numbers[%d] - ", i);
         printf("%d ", arr[i]);
     }
     printf("\n");
